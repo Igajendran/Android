@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/date_label_set"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSetDateCheckIn"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:onClick="setDate"
+            android:text="@string/date_button_set_checkin" />
+
+        <TextView
+            android:id="@+id/txtCheckIn"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnSetDateCheckOut"
+            android:layout_toLeftOf="@+id/btnSetDateCheckOut"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSetDateCheckOut"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:onClick="setDate"
+            android:text="@string/date_button_set_checkout" />
+
+        <TextView
+            android:id="@+id/txtCheckOut"
+            android:layout_width="288dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnSetDateCheckOut"
+            android:layout_toLeftOf="@+id/btnSetDateCheckOut"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="323dp" />
+
+    <Button
+        android:id="@+id/btnBooknow"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:text="Book Now"
+        android:visibility="visible" />
+
+</LinearLayout>
+</ScrollView>

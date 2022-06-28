@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Travesto</string>
+    <string name="PreviousBooking">Previous Bookings</string>
+    <string name="Booknow">Book Now</string>
+    <string name="date_label_set">Press the button to choose the dates</string>
+    <string name="date_button_set_checkin">Check-In</string>
+    <string name="date_button_set_checkout">Check-Out</string>
+    <string name="date_checkin">CheckIn: </string>
+    <string name="date_checkout">CheckOut: </string>
+
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="date_selected"></string>
+    <string name="go_home">Go Home</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="Athens">Athens</string>
+
+
+    <string name="lorem_ipsum">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi</string>
+    <string name="visa">Visa</string>
+    <string name="MasterCard">MasterCard</string>
+    <string name="UPI">UPI(MAILID)</string>
+    <string name="PayNow">Pay Now</string>
+    <string name="PaymentDetails">Payment Details</string>
+    <string name="finalize">Choose dates to finalize the booking</string>
+
+
+</resources>
